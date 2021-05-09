@@ -1,0 +1,107 @@
+.navbar {
+  min-height: 90px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 70px;
+  line-height: 80px;
+  font-size: 45px; 
+  font-family: cursive;
+    width: 200px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px;
+    
+}
+
+@media (min-width: 1200px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+      font-size: 27px;
+  }
+}
+
+
+
+
+body {
+    font-family: Arial;
+    width: 1700spx;
+    margin-left: 0px;
+}
+
+.form-container {
+    background-image: url("images/covid.webp")
+    
+    padding: 2000px;
+    
+}
+
+.input-row {
+    margin-bottom: 20px;
+}
+
+.input-row label {
+    color: white;
+    font-size: 24px;
+    margin-left: 400px;
+}
+
+.input-field {
+    width: 70%;
+    border-radius: 2px;
+    padding: 10px;
+    border: white 1px solid;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-left: 400px;
+}
+
+.span-field {
+    font: Arial;
+    font-size: small;
+    text-decoration: none;
+}
+
+.btn-submit {
+    padding: 10px 60px;
+    background: #1abc9c;
+    border: white 1px solid;
+    color: black;
+    font-size: 1.3em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 400px;
+}
+
+.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.successMessage {
+    background-color: #9fd2a1;
+    border: #91bf93 1px solid;
+    padding: 5px 10px;
+    color: #3d503d;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.info {
+    font-size: .8em;
+    color: #e66262;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
